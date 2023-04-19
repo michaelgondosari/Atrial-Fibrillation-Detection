@@ -7,7 +7,11 @@ This project aims to develop a machine learning model that can detect the presen
 
 ## Dataset
 
-...
+This dataset contains electrocardiogram (ECG) data from patients who underwent coronary artery bypass graft (CABG) surgery at the Erasmus Medical Centre in Rotterdam, Department of Electrophysiology. The dataset is used for detecting atrial fibrillation (AF) using machine learning algorithms.
+
+There are two initial datasets available: preprocessed and raw data.
+- The preprocessed data consists of 150,000 observations with 30 dependent variables and one independent variable (Control).
+- The raw data consists of ECG and class data. The ECG data is stored in 804 text files (Data1 to Data804) and analyzed using a semi-automatic program (Synescope) for R peak annotation. The ECG data is then manually audited by a physician to label AF cases. The class data is also stored in 804 text files (Control1 to Control804), where the AF and no-AF episodes were transformed into 1 and 0 in 30-second intervals by considering if more than 75% of the period was AF.
 
 ## Methods
 
