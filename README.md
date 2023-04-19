@@ -15,7 +15,17 @@ There are two initial datasets available: preprocessed and raw data.
 
 ## Methods
 
-...
+**Exploratory Data Analysis (EDA):**
+EDA was performed to understand the characteristics and patterns of the data, specifically to examine the distribution of data, outliers, and missing values.
+
+**Data Preprocessing:**
+The raw data required significant preprocessing to be usable in machine learning models. Initially, the ECG signals and AF labels was separated in different 804 text files, and it was necessary to transform and merge both raw files. The data cleaning process was also performed.
+
+**Feature Engineering:**
+Features were generated from the preprocessed data (including time domain, frequency domain, and other hrv-based features), and the missing data were handled through imputation. Feature selection was also performed to reduce the dimensionality of the dataset.
+
+**Model Building:**
+Handling class imbalances was a significant challenge in this project since the AF cases were in the minority. Therefore, different sampling techniques were applied to overcome the class imbalance issue. A train-test split was performed to evaluate the performance of the models, and feature scaling was applied to normalize the data. Finally, different machine learning models were trained and tested on the preprocessed data, and the results were analyzed to select the best-performing model.
 
 ## Results
 
