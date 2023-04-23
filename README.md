@@ -1,4 +1,4 @@
-# Atrial Fibrillation Detection
+# Early Detection & Monitoring of Atrial Fibrillation Cases
 Data Science Project - Time Series &amp; Data Mining
 
 ## Introduction
