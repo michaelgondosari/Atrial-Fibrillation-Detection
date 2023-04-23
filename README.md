@@ -29,7 +29,7 @@ Handling class imbalances was a significant challenge in this project since the 
 
 ## Results
 
-...
+The XGBoost algorithm outperformed other models and achieved the highest recall and accuracy of 0.99 in detecting AF episodes. Feature importance analysis revealed that the most important features are time and frequency domain features, especially the ones that reflect the sudden movement in the R-R interval. These findings highlight the importance of time-series-based heart rate variability features and the effectiveness of machine learning algorithms in detecting AF episodes, providing valuable insights for medical practitioners and researchers working in the field of cardiology.
 
 ## Contributors
 
